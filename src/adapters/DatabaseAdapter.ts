@@ -26,12 +26,15 @@ const DatabaseAdapter = (): Adapter => {
       return user as UserOutput;
     },
     async getUserByAccount() {
+      console.log('getUserByAccount');
       throw new Error('Not implemented');
     },
     async updateUser(data: Partial<AdapterUser>) {
+      console.log('updateUser');
       return await users.update(data as UserOutput);
     },
     async linkAccount() {
+      console.log('linkAccount');
       return Promise.resolve();
     },
     async createSession(data: { sessionToken: string; userId: string; expires: Date }) {
@@ -51,9 +54,11 @@ const DatabaseAdapter = (): Adapter => {
       return Promise.resolve({ session, user });
     },
     async updateSession() {
+      console.log('updateSession');
       throw new Error('Not implemented');
     },
     async deleteSession(sessionToken: string) {
+      console.log('deleteSession');
       await sessions.delete(sessionToken);
     },
     async createVerificationToken(verificationToken: BaseVerificationToken) {
