@@ -37,6 +37,7 @@ W projekcie wykorzystywane są następujące technologie, biblioteki i rozwiąza
 - [next.js](https://nextjs.org)
 - [styled-components](https://styled-components.com)
 - [tailwind](https://tailwindcss.com)
+- [twin.macro](https://github.com/ben-rogerson/twin.macro)
 
 ## Tematy do rozwiązania
 
