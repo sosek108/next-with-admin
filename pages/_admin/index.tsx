@@ -1,10 +1,9 @@
-import React, { FunctionComponent } from 'react';
+import React from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { Header } from '../../components/Header/Header';
-type Props = {};
 
-const AdminHome: NextPage = (props) => {
+const AdminHome: NextPage = () => {
   return (
     <>
       <Head>
