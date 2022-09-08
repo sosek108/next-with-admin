@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  mysql:
+    image: mariadb:10.5.8
+    working_dir: /application
+    volumes:
+      - .:/application
+    environment:
+      - MYSQL_ROOT_PASSWORD=api
+      - MYSQL_DATABASE=api
+      - MYSQL_USER=api
+      - MYSQL_PASSWORD=api
+    ports:
+      - '15038:3306'

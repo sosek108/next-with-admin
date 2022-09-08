@@ -1,3 +1,51 @@
+# Wiśniowski - Strona firmowa
+
+## Wstęp
+
+Projekt zawiera kod źródłowy dla korporacyjnej strony marki WIŚNIOWSKI.
+
+## Wymagania
+
+- node v16
+- mysql
+- docker
+- cierpliwość
+
+## Pierwsze uruchomienie
+
+```bash
+yarn install
+```
+
+## Development
+
+```bash
+docker-compose up -d
+yarn dev
+```
+
+## Deployment
+
+**TBD**
+
+## Warte uwagi
+
+W projekcie wykorzystywane są następujące technologie, biblioteki i rozwiązania:
+
+- [ReactJS](https://pl.reactjs.org)
+- [Strapi Headless CMS](https://strapi.io)
+- [next.js](https://nextjs.org)
+- [styled-components](https://styled-components.com)
+- [tailwind](https://tailwindcss.com)
+
+## Tematy do rozwiązania
+
+- języki
+- security
+- seo
+- migracje
+- menu
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
