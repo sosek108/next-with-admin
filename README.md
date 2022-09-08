@@ -7,14 +7,18 @@ Projekt zawiera kod źródłowy dla korporacyjnej strony marki WIŚNIOWSKI.
 ## Wymagania
 
 - node v16
-- mysql
+- mariadb
 - docker
+- sequelize-cli
 - cierpliwość
 
 ## Pierwsze uruchomienie
 
 ```bash
+npm i -g sequelize
 yarn install
+sequelize db:migrate
+sequelize db:seed:all
 ```
 
 ## Development
@@ -38,6 +42,9 @@ W projekcie wykorzystywane są następujące technologie, biblioteki i rozwiąza
 - [styled-components](https://styled-components.com)
 - [tailwind](https://tailwindcss.com)
 - [twin.macro](https://github.com/ben-rogerson/twin.macro)
+- [NextAuth.js](https://github.com/nextauthjs/next-auth)
+- [Sequelize](https://sequelize.org)
+- [Migracje](https://sequelize.org/docs/v6/other-topics/migrations/)
 
 ## Tematy do rozwiązania
 
