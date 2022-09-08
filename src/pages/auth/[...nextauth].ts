@@ -1,6 +1,6 @@
 import NextAuth from 'next-auth';
 import EmailProvider from 'next-auth/providers/email';
-import DatabaseAdapter from '../../../adapters/DatabaseAdapter';
+import DatabaseAdapter from '../../adapters/DatabaseAdapter';
 
 export const authOptions = {
   providers: [
