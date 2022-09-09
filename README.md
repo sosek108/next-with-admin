@@ -1,4 +1,4 @@
-# WPanel administracyjny na NExt
+# WPanel administracyjny na Next.js
 
 ## Wstęp
 
