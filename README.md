@@ -1,8 +1,8 @@
-# Wiśniowski - Strona firmowa
+# WPanel administracyjny na NExt
 
 ## Wstęp
 
-Projekt zawiera kod źródłowy dla korporacyjnej strony marki WIŚNIOWSKI.
+TBD
 
 ## Wymagania
 
